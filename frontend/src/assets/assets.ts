@@ -9,6 +9,11 @@ import david from './david.png';
 import michael from './michael.png';
 import sarah from './sarah.png';
 import chris from './chris.png';
+import gig_image_1 from './gig_image_1.png';
+import gig_image_2 from './gig_image_2.png';
+import gig_image_3 from './gig_image_3.png';
+import gig_image_4 from './gig_image_4.png';
+import gig_image_5 from './gig_image_5.png';
 
 // Define a type for your assets
 export type AssetsType = {
@@ -22,6 +27,11 @@ export type AssetsType = {
   michael: string;
   sarah: string;
   chris: string;
+  gig_image_1: string;
+  gig_image_2: string;
+  gig_image_3: string;
+  gig_image_4: string;
+  gig_image_5: string;
 };
 
 // Export the typed object
@@ -35,5 +45,10 @@ export const assets: AssetsType = {
   david,
   michael,
   sarah,
-  chris
+  chris,
+  gig_image_1,
+  gig_image_2,
+  gig_image_3,
+  gig_image_4,
+  gig_image_5,
 };
